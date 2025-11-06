@@ -67,23 +67,43 @@ When this plugin is enabled in a project, the seed agents will create project-sp
 
 ## Development Workflow
 
-### Testing the Plugin Locally
+### Repository
 
-1. Install the plugin in test mode:
+- **GitHub**: https://github.com/patjlm/claude-dev-team
+- **Marketplace**: Available via `/plugin marketplace add patjlm/claude-dev-team`
+
+### Installing the Plugin
+
+#### Quick Install (End Users)
+
+```bash
+# Add the marketplace
+/plugin marketplace add patjlm/claude-dev-team
+
+# Install and enable
+/plugin install claude-dev-team
+/plugin enable claude-dev-team
+
+# Verify installation
+"Show me available agents"
+```
+
+#### Development Install (Contributors)
+
+1. Clone the repository:
    ```bash
-   # From your test project directory
-   claude /plugin install /path/to/claude-dev-team
+   git clone https://github.com/patjlm/claude-dev-team
    ```
 
-2. Enable the plugin:
+2. Install from local directory:
    ```bash
-   claude /plugin enable claude-dev-team
+   /plugin install /path/to/claude-dev-team
+   /plugin enable claude-dev-team
    ```
 
 3. Verify seed agents are available:
    ```bash
-   # List available agents
-   claude "Show me available agents"
+   "Show me available agents"
    ```
 
 ### Modifying Agents

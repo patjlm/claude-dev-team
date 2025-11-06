@@ -1,0 +1,27 @@
+{
+  "name": "claude-dev-team-marketplace",
+  "owner": {
+    "name": "patjlm"
+  },
+  "plugins": [
+    {
+      "name": "claude-dev-team",
+      "source": ".",
+      "description": "Autonomous agent team management plugin that dynamically creates, configures, and adapts specialized agents and skills based on project needs",
+      "version": "0.1.0",
+      "author": {
+        "name": "patjlm"
+      },
+      "homepage": "https://github.com/patjlm/claude-dev-team",
+      "repository": "https://github.com/patjlm/claude-dev-team",
+      "keywords": [
+        "agents",
+        "skills",
+        "team",
+        "autonomous",
+        "workflow",
+        "coordination"
+      ]
+    }
+  ]
+}

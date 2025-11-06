@@ -41,24 +41,45 @@ Reusable procedures and knowledge captured as Claude Code skills:
 
 ## Installation
 
-### From Local Directory
+### Quick Install (Recommended)
 
 ```bash
-# Navigate to your project
-cd /path/to/your/project
+# Add the marketplace
+/plugin marketplace add patjlm/claude-dev-team
 
 # Install the plugin
-claude /plugin install /path/to/claude-dev-team
+/plugin install claude-dev-team
 
 # Enable the plugin
-claude /plugin enable claude-dev-team
+/plugin enable claude-dev-team
 ```
 
-### From Marketplace (Coming Soon)
+That's it! No cloning required - Claude Code will fetch the plugin automatically from GitHub.
+
+### Alternative: Direct GitHub Install
 
 ```bash
-claude /plugin marketplace add https://github.com/patjlm/claude-dev-team
-claude /plugin install claude-dev-team
+# Add as marketplace using full GitHub URL
+/plugin marketplace add https://github.com/patjlm/claude-dev-team
+
+# Install and enable
+/plugin install claude-dev-team
+/plugin enable claude-dev-team
+```
+
+### For Plugin Development
+
+If you want to modify the plugin or contribute:
+
+```bash
+# Clone the repository
+git clone https://github.com/patjlm/claude-dev-team
+
+# Install from local directory
+/plugin install /path/to/claude-dev-team
+
+# Enable the plugin
+/plugin enable claude-dev-team
 ```
 
 ## Usage
@@ -124,10 +145,14 @@ This plugin is in early development (v0.1.0). Contributions welcome!
 
 ### Testing Locally
 
-1. Clone this repository
+1. Clone this repository: `git clone https://github.com/patjlm/claude-dev-team`
 2. Install in a test project: `claude /plugin install /path/to/claude-dev-team`
 3. Enable: `claude /plugin enable claude-dev-team`
 4. Verify seed agents: `"Show me available agents"`
+
+### Contributing
+
+Contributions are welcome! Please feel free to submit issues and pull requests to the [GitHub repository](https://github.com/patjlm/claude-dev-team).
 
 ### Architecture
 
