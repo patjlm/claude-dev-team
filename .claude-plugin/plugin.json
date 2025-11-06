@@ -1,0 +1,16 @@
+{
+  "name": "claude-dev-team",
+  "description": "Autonomous agent team management plugin that dynamically creates, configures, and adapts specialized agents and skills based on project needs",
+  "version": "0.1.0",
+  "author": {
+    "name": "patjlm"
+  },
+  "keywords": [
+    "agents",
+    "skills",
+    "team",
+    "autonomous",
+    "workflow",
+    "coordination"
+  ]
+}

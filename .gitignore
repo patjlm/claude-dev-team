@@ -1,0 +1,28 @@
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Dependencies (if we add any scripts later)
+node_modules/
+__pycache__/
+*.pyc
+
+# Local development
+.env
+.env.local
+*.local
+
+# Test outputs
+test-output/
+*.test
